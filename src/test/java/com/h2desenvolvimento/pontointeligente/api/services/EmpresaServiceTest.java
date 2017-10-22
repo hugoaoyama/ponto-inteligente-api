@@ -31,7 +31,7 @@ public class EmpresaServiceTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		
 	}
 
 }
