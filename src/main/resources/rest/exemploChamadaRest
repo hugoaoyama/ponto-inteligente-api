@@ -1,0 +1,12 @@
+POST 
+	localhosta:8080/api/cadastrar-pj
+
+{
+	"nome":"Teste jose",
+	"email":"teste@email.com",
+	"senha":"12345",
+	"cpf":"1234567890",
+	"razaoSocial":"Teste empresa",
+	"cnpj":"12345467875456"
+}
+
