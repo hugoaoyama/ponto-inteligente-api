@@ -10,3 +10,33 @@ POST
 	"cnpj":"12345467875456"
 }
 
+***************************************************
+GET
+	localhost:8080/api/empresas/cnpj/99134308000197
+
+************************************************
+post 
+
+localhost:8080/api/cadastrar-pf
+
+{
+	"nome":"TEste pessoa fisica",
+	"email":"teste@gmail.com",
+	"senha":"12345",
+	"cpf":"27915320130",
+	"valorHora" :"50",
+	"qtdHorasTrabalhoDia":"8",
+	"cnpj":"99134308000197"
+}
+********************************************************
+
+PUT
+		localhost:8080/api/funcionarios/2
+		
+{
+	"nome":"Teste pessoa fisica",
+	"email":"teste@gmail.com",
+	"valorHora" :"60",
+	"qtdHorasTrabalhoDia":"10",
+	"cnpj":"99134308000197"
+}	
