@@ -40,3 +40,37 @@ PUT
 	"qtdHorasTrabalhoDia":"10",
 	"cnpj":"99134308000197"
 }	
+
+************************************************************
+POST
+	http://localhost:8080/api/lancamentos
+{
+	"data":"2017-10-26 19:00:00",
+	"tipo":"TERMINO_TRABALHO",
+	"descricao":"Termino do trabalho",
+	"localizacao":"1.23423,2.4356",
+	"funcionarioId":"2"
+}
+
+*****************************************************
+PUT
+	http://localhost:8080/api/lancamentos/2
+	
+	{
+	"data":"2017-10-26 19:00:00",
+	"tipo":"TERMINO_TRABALHO",
+	"descricao":"Termino do trabalho",
+	"localizacao":"1.23423,2.4356",
+	"funcionarioId":"2"
+}
+
+******************************************************
+ordenar asc
+
+GET
+	http://localhost:8080/api/lancamentos/funcionario/2?dir-ASC
+	
+	
+
+
+	
